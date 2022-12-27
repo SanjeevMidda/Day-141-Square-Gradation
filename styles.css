@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 70vw;
+    height: 70vh;
+    display:grid;
+    grid-template-columns: 10% 30% 50% 10% 40% 60% 20% 50% 30%;
+}
+
+.one{
+    background: linear-gradient(yellow,pink);
+}
+.two{
+    background: linear-gradient(green,brown);
+
+}
+.three{
+    background: linear-gradient(purple,blue);
+
+}
+.four{
+    background: linear-gradient(orange,red);
+
+}
+.five{
+    background: linear-gradient(brown,blue);
+
+}
+.six{
+    background: linear-gradient(green,pink);
+
+}
+.seven{
+    background: linear-gradient(yellow,orange);
+
+}
+.eight{
+    background: linear-gradient(blue,green);
+
+}
+.nine{
+    background: linear-gradient(yellow,red);
+
+}
